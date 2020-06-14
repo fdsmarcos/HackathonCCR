@@ -287,3 +287,10 @@ body { margin: 0; font-family: 'Roboto', Tahoma, Geneva, Verdana, sans-serif, "H
 .mat-select{
     width: 92%;
 }
+
+.mat-radio-button.mat-accent .mat-radio-inner-circle, .mat-radio-button.mat-accent .mat-radio-ripple .mat-ripple-element:not(.mat-radio-persistent-ripple), .mat-radio-button.mat-accent.mat-radio-checked .mat-radio-persistent-ripple, .mat-radio-button.mat-accent:active .mat-radio-persistent-ripple {
+    background-color: #EB920F;
+}
+.mat-radio-button.mat-accent.mat-radio-checked .mat-radio-outer-circle {
+    border-color: #EB920F;
+}
