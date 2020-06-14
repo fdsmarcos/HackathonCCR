@@ -21,11 +21,18 @@ import { MatDividerModule } from '@angular/material/divider';
 import { MatListModule } from '@angular/material/list';
 import { MatGridListModule } from '@angular/material/grid-list';
 import { MatToolbarModule } from '@angular/material/toolbar';
+import { MatSelectModule } from '@angular/material/select';
+import { AgmCoreModule } from '@agm/core';
+
+/*
+Componentes do APP 
+*/
 import { CadastroComponent } from './Cadastro/cadastro.component';
 import { ContatoComponent } from './Contato/contato.component';
 import { LoginComponent } from './Login/login.component';
 import { HomeComponent } from './Home/home.component';
 import { MapasComponent } from './Mapas/mapas.component';
+import { PerfilComponent } from './perfil/perfil.component';
 
 @NgModule({
   declarations: [
@@ -34,7 +41,8 @@ import { MapasComponent } from './Mapas/mapas.component';
     ContatoComponent,
     LoginComponent,
     HomeComponent,
-    MapasComponent
+    MapasComponent,
+    PerfilComponent
   ],
   imports: [
     BrowserModule,
@@ -57,6 +65,9 @@ import { MapasComponent } from './Mapas/mapas.component';
 	  MatGridListModule,
     MatToolbarModule,
     MatTableModule,
+    MatSelectModule,
+    AgmCoreModule.forRoot({
+      apiKey:'AIzaSyBUk9pUKG0mvYc6RCsW_WLL-uFturokYng'})
   ],
   providers: [],
   bootstrap: [AppComponent]

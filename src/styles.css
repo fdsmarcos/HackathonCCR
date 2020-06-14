@@ -1,6 +1,6 @@
 /* You can add global styles to this file, and also import other style files */
 
-html, body { height: 100%; }
+html, body { height: 640px;width: 360px; }
 body { margin: 0; font-family: 'Roboto', Tahoma, Geneva, Verdana, sans-serif, "Helvetica Neue", sans-serif; background-color: #4E5D6A;}
 
 /* Smartphones (portrait and landscape) ----------- */
@@ -151,12 +151,20 @@ body { margin: 0; font-family: 'Roboto', Tahoma, Geneva, Verdana, sans-serif, "H
     margin-left: 5px;
     margin-right: 5px;
     background-color: #4E5D6A;
-    color: #EB920F;
+    color: #A6BCD0;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
     font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 18pt;
+}
+.mat-radio-label-content{
+    background-color: #4E5D6A;
+    color: #A6BCD0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14pt;
     font-weight: 300;
 }
 .mat-radio-button {
@@ -167,6 +175,16 @@ body { margin: 0; font-family: 'Roboto', Tahoma, Geneva, Verdana, sans-serif, "H
   }
   .mat-accent{
       color: #EB920F;
+  }
+  .mat-form-field-flex{
+    background-color: #4E5D6A;
+    color: #A6BCD0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14pt;
+    font-weight: 300;
+  }
+  .mat-input-element{
+    color: #A6BCD0;
   }
 .radio-group-login{
     align-items: flex-end;
@@ -200,6 +218,8 @@ body { margin: 0; font-family: 'Roboto', Tahoma, Geneva, Verdana, sans-serif, "H
     margin-left: 15px;
     padding-right: 15px;
     width: 100%;
+    max-height: 500px;
+    overflow: auto;
 }
 .example-form {
     min-width: 140px;
@@ -211,6 +231,23 @@ body { margin: 0; font-family: 'Roboto', Tahoma, Geneva, Verdana, sans-serif, "H
     width: 100%;
   }
   .Enter{
+    position: absolute;
+    width: 331.19px;
+    height: 54px;
+    left: 14px;
+    top: -6px;
+    font-family: Roboto;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    color: #FFFAFA; 
+    background: #EB920F;
+    border-radius: 8px;
+  }
+  .Enter-Login{
     position: absolute;
     width: 331.19px;
     height: 54px;
@@ -227,6 +264,26 @@ body { margin: 0; font-family: 'Roboto', Tahoma, Geneva, Verdana, sans-serif, "H
     background: #EB920F;
     border-radius: 8px;
   }
-  mat-radio-inner-circle{
+  .imagem-button {
+    position: absolute;
+    width: 331.19px;
+    height: 54px;
+    left: 0px;
+    top: -6px;
+    font-family: Roboto;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    color: #FFFAFA; 
+    background: #4E5D6A;
+    border-radius: solid 1px #ffffff;
+  }
+  .mat-radio-button.mat-accent .mat-radio-inner-circle{
       color: #EB920F;
   }
+.mat-select{
+    width: 92%;
+}
