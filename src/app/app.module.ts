@@ -25,6 +25,7 @@ import { CadastroComponent } from './Cadastro/cadastro.component';
 import { ContatoComponent } from './Contato/contato.component';
 import { LoginComponent } from './Login/login.component';
 import { HomeComponent } from './Home/home.component';
+import { MapasComponent } from './Mapas/mapas.component';
 
 @NgModule({
   declarations: [
@@ -33,6 +34,7 @@ import { HomeComponent } from './Home/home.component';
     ContatoComponent,
     LoginComponent,
     HomeComponent,
+    MapasComponent
   ],
   imports: [
     BrowserModule,
