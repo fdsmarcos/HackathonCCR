@@ -1,1 +1,44 @@
-
+<div class="mat-card-login">Cadastro</div>
+<br>
+<div class="inputNome">
+    <form class="example-form">
+        <p>
+            <mat-form-field appearance="outline" class="example-full-width">
+            <mat-label>Nome Completo</mat-label>
+            <input matInput placeholder="Nome Completo" >
+            </mat-form-field>
+            <mat-form-field appearance="outline" class="example-full-width">
+                <mat-label>Telefone</mat-label>
+                <input matInput placeholder="Insire seu Telefone" >
+            </mat-form-field>
+            <mat-form-field appearance="outline" class="example-full-width">
+            <mat-label>Senha</mat-label>
+            <input matInput type="password" placeholder="Digite sua senha">
+            </mat-form-field>
+            <mat-form-field appearance="outline" class="example-full-width">
+                <mat-label>Confirme a Senha</mat-label>
+                <input matInput type="password" placeholder="Digite sua senha igual a primeira">
+            </mat-form-field>
+            <br>
+            <div class="mat-card-login">Documento Comprovatório</div>
+            <br>    
+            <mat-form-field class="mat-select">
+                <mat-label>Documento</mat-label>
+                    <mat-select>
+                        <mat-option value="RG">
+                            R.G.
+                        </mat-option>
+                        <mat-option value="CNH">
+                            Carteira de Habilitação
+                        </mat-option>
+                    </mat-select>
+            </mat-form-field>
+            <button mat-stroked-button class="imagem-button">Imagem</button>            
+    </form>
+    
+</div>
+<div><mat-icon class="icon-esqueci-senha">arrow_back</mat-icon><span class="esqueci-senha">Esqueci minha senha</span></div>
+<br>
+<br>
+<button mat-button class="Enter" >ENTRAR</button>
+<div ><mat-icon class="icon-sem-cadastro">arrow_back</mat-icon><span class="sem-cadastro">Não tenho Cadastro</span></div>

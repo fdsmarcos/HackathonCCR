@@ -1,12 +1,32 @@
 
 <div class="mat-card-login">Faça seu Login</div>
-<mat-divider></mat-divider>
 <br>
 
 <div class="radio-group-login">
 <mat-radio-group aria-label="Select an option">
-    <mat-radio-button value="1">Parceiro</mat-radio-button>
-    <mat-radio-button value="2">Caminhoneiro</mat-radio-button>
+    <mat-radio-button class="option" value="1">Parceiro</mat-radio-button>
+    <mat-radio-button class="option" value="2">Caminhoneiro</mat-radio-button>
 </mat-radio-group>
-
-
+<br>
+<br>
+<mat-divider></mat-divider>
+<br>
+<div class="inputNome">
+<form class="example-form">
+  <p>
+    <mat-form-field appearance="outline" class="example-full-width">
+      <mat-label>Nome Completo</mat-label>
+      <input matInput placeholder="Nome Completo" >
+    </mat-form-field>
+    <mat-form-field appearance="outline" class="example-full-width">
+      <mat-label>Senha</mat-label>
+      <input matInput type="password" placeholder="Digite sua senha">
+    </mat-form-field>
+    </p>    
+  </form>
+</div>
+<div><mat-icon class="icon-esqueci-senha">arrow_back</mat-icon><span class="esqueci-senha">Esqueci minha senha</span></div>
+<br>
+<br>
+<button mat-button class="Enter-Login">ENTRAR</button>
+<div ><mat-icon class="icon-sem-cadastro">arrow_back</mat-icon><span class="sem-cadastro"><a [routerLink]="['/Cadastro']">Não tenho Cadastro</a></span></div>
